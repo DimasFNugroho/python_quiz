@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the outcome in Python if quotation marks are omitted around 'Hello World!' in the print statement print(Hello World!)?",
+        "options": [
+            "a) Hello World!",
+            "b) SyntaxError",
+            "c) None",
+            "d) 'Hello World!'"
+        ],
+        "answer": "b",
+        "explanation": "Omitting quotation marks around text in Python print statements will result in a SyntaxError."
+    },
+    {
+        "question": "Which module is available for verifying the Python version?",
+        "options": [
+            "a) sys",
+            "b) os",
+            "c) math",
+            "d) random"
+        ],
+        "answer": "a",
+        "explanation": "The 'sys' module in Python provides information about the Python version running on the system."
+    },
+    {
+        "question": "Which of the following is an invalid Python variable name?",
+        "options": [
+            "a) my_variable",
+            "b) 123variable",
+            "c) _myVariable",
+            "d) myVariable2"
+        ],
+        "answer": "b",
+        "explanation": "Variable names cannot start with a number."
+    },
+    {
+        "question": "What is the result of using the type() function on the string '42'?",
+        "options": [
+            "a) str",
+            "b) int",
+            "c) float",
+            "d) bool"
+        ],
+        "answer": "a",
+        "explanation": "The type() function in Python returns the data type of the provided object. In this case, the string '42' is of type str."
+    },
+    {
+        "question": "What does the print(10 / 3) function output?",
+        "options": [
+            "a) 3.3333333333333335",
+            "b) 3",
+            "c) 3.0",
+            "d) SyntaxError"
+        ],
+        "answer": "a",
+        "explanation": "When dividing two integers in Python, the result is a float if the division is not exact."
+    },
+    {
+        "question": "How do lists and tuples differ from each other in Python?",
+        "options": [
+            "a) Lists are mutable while tuples are immutable",
+            "b) Tuples can contain elements of different data types while lists cannot",
+            "c) Lists are indexed starting from 1 while tuples are indexed starting from 0",
+            "d) Lists have a fixed size while tuples can dynamically grow or shrink"
+        ],
+        "answer": "a",
+        "explanation": "Lists in Python can be modified after creation, meaning elements can be added, removed, or changed. Tuples, on the other hand, are immutable meaning they cannot be modified after creation."
+    },
+    {
+        "question": "What is the expected output when running the code with the assignment x, y, z = 'Orange', 'Banana', 'Cherry' followed by printing x, y, z?",
+        "options": [
+            "a) Orange Banana Cherry",
+            "b) Cherry Banana Orange",
+            "c) Orange Cherry Banana",
+            "d) Banana Cherry Orange"
+        ],
+        "answer": "a",
+        "explanation": "The variables x, y, z are assigned the values 'Orange', 'Banana', 'Cherry' respectively. When printed, they will output 'Orange Banana Cherry'."
+    },
+    {
+        "question": "What output will be produced by print(type(10.0))?",
+        "options": [
+            "a) <class 'float'>",
+            "b) <class 'int'>",
+            "c) <class 'str'>",
+            "d) <class 'type'>"
+        ],
+        "answer": "a",
+        "explanation": "The type() function returns the type of the input value, so print(type(10.0)) will output <class 'float'>."
+    },
+    {
+        "question": "What is the method for assigning the same value to multiple variables at once in Python?",
+        "options": [
+            "a) Parallel assignment",
+            "b) Multivariate assignment",
+            "c) Simultaneous assignment",
+            "d) Equal assignment"
+        ],
+        "answer": "a",
+        "explanation": "Parallel assignment in Python allows assigning the same value to multiple variables in a single line of code."
+    },
+    {
+        "question": "Which of the following is a valid Python keyword?",
+        "options": [
+            "a) function",
+            "b) module",
+            "c) import",
+            "d) class"
+        ],
+        "answer": "c",
+        "explanation": "In Python, 'import' is a keyword used to import modules or packages into the current script."
+    },
+    {
+        "question": "What is the output of print(len('Python'))?",
+        "options": [
+            "a) 6",
+            "b) 5",
+            "c) 7",
+            "d) SyntaxError"
+        ],
+        "answer": "a",
+        "explanation": "The len() function returns the number of characters in the provided string, which in this case is 'Python' with 6 characters."
+    },
+    {
+        "question": "What will be the result of bool('')?",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) None",
+            "d) Error"
+        ],
+        "answer": "b",
+        "explanation": "The bool() function returns False for an empty string."
+    },
+    {
+        "question": "What is the term used in Python to delineate a section of code?",
+        "options": [
+            "a) Bracket",
+            "b) Parenthesis",
+            "c) Indentation",
+            "d) Quotation"
+        ],
+        "answer": "c",
+        "explanation": "In Python, code blocks are delineated based on indentation levels rather than using brackets or other symbols."
+    },
+    {
+        "question": "What will be the output of the following code snippet? def myFunc(): print('python is ', x); x = 'awesome'; myFunc()",
+        "options": [
+            "a) python is awesome",
+            "b) NameError: name 'x' is not defined",
+            "c) TypeError: can only concatenate str (not \"NoneType\") to str",
+            "d) SyntaxError: invalid syntax"
+        ],
+        "answer": "b",
+        "explanation": "The variable x is referenced before it is defined within the function, leading to a NameError."
+    },
+    {
+        "question": "What is the correct way to import a module in Python?",
+        "options": [
+            "a) import module_name",
+            "b) from module_name import *",
+            "c) import module_name as alias",
+            "d) All of the above"
+        ],
+        "answer": "d",
+        "explanation": "In Python, modules can be imported using 'import module_name', 'from module_name import *', or 'import module_name as alias' depending on the requirement."
+    },
+    {
+        "question": "Which of the following data types in Python is immutable?",
+        "options": [
+            "a) List",
+            "b) Dictionary",
+            "c) Tuple",
+            "d) Set"
+        ],
+        "answer": "c",
+        "explanation": "Tuples in Python are immutable, meaning their elements cannot be changed once assigned."
+    },
+    {
+        "question": "What is the output of print('Python'[-1])?",
+        "options": [
+            "a) n",
+            "b) P",
+            "c) h",
+            "d) y"
+        ],
+        "answer": "a",
+        "explanation": "The expression 'Python'[-1] accesses the last character of the string 'Python', which is 'n'."
+    },
+    {
+        "question": "Which keyword is used to receive user input in Python?",
+        "options": [
+            "a) input",
+            "b) get",
+            "c) read",
+            "d) scan"
+        ],
+        "answer": "a",
+        "explanation": "The input() function is used to receive input from the user in Python."
+    },
+    {
+        "question": "How can a single-line comment be created in Python?",
+        "options": [
+            "a) Using # symbol",
+            "b) Using // symbol",
+            "c) Using <!-- and --> symbols",
+            "d) Using /* and */ symbols"
+        ],
+        "answer": "a",
+        "explanation": "In Python, a single-line comment can be created by using the # symbol before the text you want to comment out."
+    },
+    {
+        "question": "Which of the following is not a built-in data type in Python?",
+        "options": [
+            "a) int",
+            "b) list",
+            "c) tuple",
+            "d) struct"
+        ],
+        "answer": "d",
+        "explanation": "The 'struct' data type is not a built-in data type in Python. It is used in C programming for defining custom data structures."
+    }
+]
