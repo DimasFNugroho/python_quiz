@@ -79,10 +79,16 @@ def take_quiz(screen):
         current_option = 0
         while True:
             for i, option in enumerate(question["options"]):
-                if i == current_option:
-                    screen.addstr(i + 2, 2, f"> {chr(97 + i)}) {option}", curses.A_REVERSE)
+                # Check if the option already includes the prefix (e.g., "a)", "b)")
+                if option.strip().startswith(chr(97 + i) + ")"):
+                    option_text = option  # Use the original option text
                 else:
-                    screen.addstr(i + 2, 2, f"  {chr(97 + i)}) {option}")
+                    option_text = f"{chr(97 + i)}) {option}"  # Add prefix if missing
+
+                if i == current_option:
+                    screen.addstr(i + 2, 2, f"> {option_text}", curses.A_REVERSE)
+                else:
+                    screen.addstr(i + 2, 2, f"  {option_text}")
 
             # Handle user input
             key = screen.getch()
